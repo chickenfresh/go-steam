@@ -8,8 +8,8 @@ package tradeoffer
 import (
 	"encoding/json"
 
-	"github.com/Philipp15b/go-steam/v2/economy/inventory"
-	"github.com/Philipp15b/go-steam/v2/steamid"
+	"github.com/chickenfresh/go-steam/v2/economy/inventory"
+	"github.com/chickenfresh/go-steam/v2/steamid"
 )
 
 type TradeOfferState uint
@@ -37,9 +37,9 @@ const (
 )
 
 type Asset struct {
-	AppId      uint32 `json:"-"`
-	ContextId  uint64 `json:"contextid,string"`
-	AssetId    uint64 `json:"assetid,string"`
+	AppId     uint32 `json:"-"`
+	ContextId uint64 `json:"contextid,string"`
+	AssetId   uint64 `json:"assetid,string"`
 	//CurrencyId uint64 `json:"currencyid,string"`
 	ClassId    uint64 `json:"classid,string"`
 	InstanceId uint64 `json:"instanceid,string"`

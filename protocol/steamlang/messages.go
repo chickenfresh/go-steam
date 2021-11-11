@@ -5,9 +5,9 @@ package steamlang
 
 import (
 	"encoding/binary"
-	"github.com/Philipp15b/go-steam/v2/protocol/protobuf"
-	"github.com/Philipp15b/go-steam/v2/rwu"
-	"github.com/Philipp15b/go-steam/v2/steamid"
+	"github.com/chickenfresh/go-steam/v2/protocol/protobuf"
+	"github.com/chickenfresh/go-steam/v2/rwu"
+	"github.com/chickenfresh/go-steam/v2/steamid"
 	"github.com/golang/protobuf/proto"
 	"io"
 )

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/Philipp15b/go-steam/v2/protocol/steamlang"
-	"github.com/Philipp15b/go-steam/v2/steamid"
+	"github.com/chickenfresh/go-steam/v2/protocol/steamlang"
+	"github.com/chickenfresh/go-steam/v2/steamid"
 )
 
 // Chats list is a thread safe map

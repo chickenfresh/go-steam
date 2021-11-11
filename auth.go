@@ -5,10 +5,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Philipp15b/go-steam/v2/protocol"
-	"github.com/Philipp15b/go-steam/v2/protocol/protobuf"
-	"github.com/Philipp15b/go-steam/v2/protocol/steamlang"
-	"github.com/Philipp15b/go-steam/v2/steamid"
+	"github.com/chickenfresh/go-steam/v2/protocol"
+	"github.com/chickenfresh/go-steam/v2/protocol/protobuf"
+	"github.com/chickenfresh/go-steam/v2/protocol/steamlang"
+	"github.com/chickenfresh/go-steam/v2/steamid"
 	"github.com/golang/protobuf/proto"
 )
 
