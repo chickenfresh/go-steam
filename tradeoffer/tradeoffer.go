@@ -38,18 +38,18 @@ const (
 
 type Asset struct {
 	AppId      uint32 `json:"-"`
-	ContextId  uint64 `json:",string"`
-	AssetId    uint64 `json:",string"`
-	CurrencyId uint64 `json:",string"`
-	ClassId    uint64 `json:",string"`
-	InstanceId uint64 `json:",string"`
-	Amount     uint64 `json:",string"`
+	ContextId  uint64 `json:"contextid,string"`
+	AssetId    uint64 `json:"assetid,string"`
+	//CurrencyId uint64 `json:"currencyid,string"`
+	ClassId    uint64 `json:"classid,string"`
+	InstanceId uint64 `json:"instanceid,string"`
+	Amount     uint64 `json:"amount,string"`
 	Missing    bool
 }
 
 type TradeOffer struct {
-	TradeOfferId       uint64                       `json:",string"`
-	TradeId            uint64                       `json:",string"`
+	TradeOfferId       uint64                       `json:"tradeofferid,string"`
+	TradeId            uint64                       `json:"tradeid,string"`
 	OtherAccountId     uint32                       `json:"accountid_other"`
 	OtherSteamId       steamid.SteamId              `json:"-"`
 	Message            string                       `json:"message"`
